@@ -1,2 +1,2 @@
 # liteloaderbds-examples
-liteloaderbds插件示例
+liteloaderbds脚本插件示例
