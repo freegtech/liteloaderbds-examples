@@ -1,6 +1,3 @@
-//LiteXLoader Dev Helper
-/// <reference path="c:\Users\Administrator\Documents\gt\script/Library/JS/Api.js" /> 
-
 /*
 power by github@freegtech
 LiteLoaderBDS
