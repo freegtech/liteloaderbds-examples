@@ -85,7 +85,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                     case 0:
                                            if(coin>5||coin==5){
                                                money.reduce(pla.xuid,5);
-                                               pla.runcmd("give "+pla.name+" bread 32");
+                                               mc.runcmd("give "+pla.name+" bread 32");
                                            }else{
                                                pla.tell("您的余额不足!")
                                            }
@@ -93,7 +93,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                         case 1:
                                             if(coin>15||coin==15){
                                                 money.reduce(pla.xuid,15);
-                                                pla.runcmd("give "+pla.name+" cooked_beef 32");
+                                                mc.runcmd("give "+pla.name+" cooked_beef 32");
                                             }else{
                                                 pla.tell("您的余额不足!")
                                             }
@@ -101,7 +101,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                             case 2:
                                                 if(coin>12||coin==12){
                                                     money.reduce(pla.xuid,12);
-                                                    pla.runcmd("give "+pla.name+" cooked_fish 32");
+                                                    mc.runcmd("give "+pla.name+" cooked_fish 32");
                                                 }else{
                                                     pla.tell("您的余额不足!")
                                                 }
@@ -109,7 +109,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                 case 3:
                                                     if(coin>20||coin==20){
                                                         money.reduce(pla.xuid,20);
-                                                        pla.runcmd("give "+pla.name+" cake 32");
+                                                        mc.runcmd("give "+pla.name+" cake 32");
                                                     }else{
                                                         pla.tell("您的余额不足!")
                                                     }
@@ -117,7 +117,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                     case 4:
                                                         if(coin>10||coin==10){
                                                             money.reduce(pla.xuid,10);
-                                                            pla.runcmd("give "+pla.name+" apple 32");
+                                                            mc.runcmd("give "+pla.name+" apple 32");
                                                         }else{
                                                             pla.tell("您的余额不足!")
                                                         }
@@ -134,7 +134,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                         case 0:
                                             if(coin>1200||coin==1200){
                                                 money.reduce(pla.xuid,1200);
-                                                pla.runcmd("give "+pla.name+" netherite_pickaxe");
+                                                mc.runcmd("give "+pla.name+" netherite_pickaxe");
                                             }else{
                                                 pla.tell("您的余额不足!")
                                             }
@@ -142,7 +142,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                             case 1:
                                                 if(coin>800||coin==800){
                                                     money.reduce(pla.xuid,800);
-                                                    pla.runcmd("give "+pla.name+" netherite_shovel");
+                                                    mc.runcmd("give "+pla.name+" netherite_shovel");
                                                 }else{
                                                     pla.tell("您的余额不足!")
                                                 }
@@ -150,7 +150,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                 case 2:
                                                     if(coin>600||coin==600){
                                                         money.reduce(pla.xuid,1200);
-                                                        pla.runcmd("give "+pla.name+" netherite_hoe");
+                                                        mc.runcmd("give "+pla.name+" netherite_hoe");
                                                     }else{
                                                         pla.tell("您的余额不足!")
                                                     }
@@ -158,7 +158,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                     case 3:
                                                         if(coin>1200||coin==1000){
                                                             money.reduce(pla.xuid,1000);
-                                                            pla.runcmd("give "+pla.name+" netherite_axe");
+                                                            mc.runcmd("give "+pla.name+" netherite_axe");
                                                         }else{
                                                             pla.tell("您的余额不足!")
                                                         }
@@ -166,7 +166,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                         case 4:
                                                             if(coin>15||coin==15){
                                                                 money.reduce(pla.xuid,15);
-                                                                pla.runcmd("give "+pla.name+" bucket");
+                                                                mc.runcmd("give "+pla.name+" bucket");
                                                             }else{
                                                                 pla.tell("您的余额不足!")
                                                             }
@@ -174,7 +174,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                             case 5:
                                                                 if(coin>30||coin==30){
                                                                     money.reduce(pla.xuid,30);
-                                                                    pla.runcmd("give "+pla.name+" flint and steel");
+                                                                    mc.runcmd("give "+pla.name+" flint and steel");
                                                                 }else{
                                                                     pla.tell("您的余额不足!")
                                                                 }
@@ -191,7 +191,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                             case 0:
                                                 if(coin>1300||coin==1300){
                                                     money.reduce(pla.xuid,1300);
-                                                    pla.runcmd("give "+pla.name+" netherite_sword");
+                                                    mc.runcmd("give "+pla.name+" netherite_sword");
                                                 }else{
                                                     pla.tell("您的余额不足!")
                                                 }
@@ -199,7 +199,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                 case 1:
                                                     if(coin>750||coin==750){
                                                         money.reduce(pla.xuid,750);
-                                                        pla.runcmd("give "+pla.name+" diamond_sword");
+                                                        mc.runcmd("give "+pla.name+" diamond_sword");
                                                     }else{
                                                         pla.tell("您的余额不足!");
                                                     }
@@ -207,7 +207,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                     case 2:
                                                         if(coin>40||coin==40){
                                                             money.reduce(pla.xuid,40);
-                                                            pla.runcmd("give "+pla.name+" bow");
+                                                            mc.runcmd("give "+pla.name+" bow");
                                                         }else{
                                                             pla.tell("您的余额不足!")
                                                         }
@@ -215,7 +215,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                         case 3:
                                                             if(coin>70||coin==70){
                                                                 money.reduce(pla.xuid,70);
-                                                                pla.runcmd("give "+pla.name+" crossbow");
+                                                                mc.runcmd("give "+pla.name+" crossbow");
                                                             }else{
                                                                 pla.tell("您的余额不足!")
                                                             }
@@ -223,7 +223,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                             case 4:
                                                                 if(coin>100||coin==100){
                                                                     money.reduce(pla.xuid,100);
-                                                                    pla.runcmd("give "+pla.name+" shield");
+                                                                    mc.runcmd("give "+pla.name+" shield");
                                                                 }else{
                                                                     pla.tell("您的余额不足!")
                                                                 }
@@ -240,7 +240,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                 case 0:
                                                     if(coin>800||coin==800){
                                                         money.reduce(pla.xuid,800);
-                                                        pla.runcmd("give "+pla.name+" totem");
+                                                        mc.runcmd("give "+pla.name+" totem");
                                                     }else{
                                                         pla.tell("您的余额不足!")
                                                     }
@@ -248,7 +248,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                     case 1:
                                                         if(coin>700||coin==700){
                                                             money.reduce(pla.xuid,700);
-                                                            pla.runcmd("give "+pla.name+" elytra");
+                                                            mc.runcmd("give "+pla.name+" elytra");
                                                         }else{
                                                             pla.tell("您的余额不足!")
                                                         }
@@ -256,7 +256,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                         case 2:
                                                             if(coin>300||coin==300){
                                                                 money.reduce(pla.xuid,300);
-                                                                pla.runcmd("give "+pla.name+" enchanted_golden_apple");
+                                                                mc.runcmd("give "+pla.name+" enchanted_golden_apple");
                                                             }else{
                                                                 pla.tell("您的余额不足!")
                                                             }
@@ -264,7 +264,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                             case 3:
                                                                 if(coin>400||coin==400){
                                                                     money.reduce(pla.xuid,400);
-                                                                    pla.runcmd("give "+pla.name+" turtle_helmet");
+                                                                    mc.runcmd("give "+pla.name+" turtle_helmet");
                                                                 }else{
                                                                     pla.tell("您的余额不足!")
                                                                 }
@@ -272,7 +272,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                                 case 4:
                                                                     if(coin>500||coin==500){
                                                                         money.reduce(pla.xuid,500);
-                                                                        pla.runcmd("give "+pla.name+" crystal");
+                                                                        mc.runcmd("give "+pla.name+" crystal");
                                                                     }else{
                                                                         pla.tell("您的余额不足!")
                                                                     }
@@ -280,7 +280,7 @@ mc.listen("onUseItemOn",(p,it,bl)=>{
                                                                     case 5:
                                                                         if(coin>150||coin==150){
                                                                             money.reduce(pla.xuid,150);
-                                                                            pla.runcmd("give "+pla.name+" name_tag");
+                                                                            mc.runcmd("give "+pla.name+" name_tag");
                                                                         }else{
                                                                             pla.tell("您的余额不足!")
                                                                         }
