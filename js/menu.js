@@ -71,7 +71,6 @@ const store_rare = mc.newSimpleForm();
     tp.addButton("返回大厅");
     tp.addButton("返回重生点");
     tp.addButton("生存区");
-//375 76 -230
 mc.listen("onUseItemOn",(p,it,bl)=>{
     if (it.name=="Compass"){
         p.sendForm(menu,(player,id)=>{
